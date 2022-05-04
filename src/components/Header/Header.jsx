@@ -34,7 +34,17 @@ const Header = () =>  (
       </li>
     </Div2>
 
-
+    <Div3>
+      <SocialIcons href='https://github.com/Lakshit-Chiranjiv'>
+        <AiFillGithub size='3rem'/>
+      </SocialIcons>
+      <SocialIcons href='https://www.linkedin.com/in/lakshit-chiranjiv-sagar-4b0b15198/'>
+        <AiFillLinkedin size='3rem'/>
+      </SocialIcons>
+      <SocialIcons href='https://twitter.com/lakshit_cs'>
+        <AiFillTwitterSquare size='3rem'/>
+      </SocialIcons>
+    </Div3>
   </Container>
 );
 
