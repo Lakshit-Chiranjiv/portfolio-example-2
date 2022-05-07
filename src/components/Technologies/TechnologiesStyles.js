@@ -154,3 +154,13 @@ export const TechGroupTitle = styled.h4`
   font-size: 18px;
 }
 `;
+
+export const TechGroupOpenButton = styled.button`
+
+font-size: 12px;
+background-color: #61f915;
+border-radius: 12px;
+border: 0;
+cursor: pointer;
+padding: 6px;
+`;
