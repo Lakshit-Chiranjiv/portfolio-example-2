@@ -142,6 +142,7 @@ export const TechGroup = styled.div`
   font-size: 24px;
   background-color: #3e3e3e;
   margin: 0 auto;
+  border-radius: 10px;
 
   @media ${props => props.theme.breakpoints.md}{
     width: 100%;
