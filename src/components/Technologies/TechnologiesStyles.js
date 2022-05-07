@@ -131,3 +131,19 @@ export const ListIcon = styled.img`
     margin-bottom: 0px;
   }
 `
+
+export const TechGroup = styled.div`
+width: 70%;
+border-bottom: 1px solid #919191;
+display: flex;
+justify-content: space-between;
+padding: 16px;
+align-items: center;
+font-size: 24px;
+background-color: #3e3e3e;
+margin: 0 auto;
+
+@media ${props => props.theme.breakpoints.md}{
+  width: 100%;
+}
+`;
