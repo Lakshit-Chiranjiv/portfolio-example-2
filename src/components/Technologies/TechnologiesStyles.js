@@ -133,34 +133,34 @@ export const ListIcon = styled.img`
 `
 
 export const TechGroup = styled.div`
-width: 70%;
-border-bottom: 1px solid #919191;
-display: flex;
-justify-content: space-between;
-padding: 16px;
-align-items: center;
-font-size: 24px;
-background-color: #3e3e3e;
-margin: 0 auto;
+  width: 70%;
+  border-bottom: 1px solid #919191;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+  font-size: 24px;
+  background-color: #3e3e3e;
+  margin: 0 auto;
 
-@media ${props => props.theme.breakpoints.md}{
-  width: 100%;
-}
+  @media ${props => props.theme.breakpoints.md}{
+    width: 100%;
+  }
 `;
 
 export const TechGroupTitle = styled.h4`
 
-@media ${props => props.theme.breakpoints.md}{
-  font-size: 18px;
-}
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: 18px;
+  }
 `;
 
-export const TechGroupOpenButton = styled.button`
+export const TechGroupToggleButton = styled.button`
 
-font-size: 12px;
-background-color: #61f915;
-border-radius: 12px;
-border: 0;
-cursor: pointer;
-padding: 6px;
+  font-size: 12px;
+  background-color: #61f915;
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
+  padding: 6px;
 `;
