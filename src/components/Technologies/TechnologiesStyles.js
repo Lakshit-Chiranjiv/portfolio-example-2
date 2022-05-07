@@ -147,3 +147,10 @@ margin: 0 auto;
   width: 100%;
 }
 `;
+
+export const TechGroupTitle = styled.h4`
+
+@media ${props => props.theme.breakpoints.md}{
+  font-size: 18px;
+}
+`;
